@@ -486,6 +486,7 @@ main {
   overflow: hidden;
   width: 360px;
   height: 398px;
+  border-radius: 24px;
 }
 
 .card__image .item__hover-effect {
@@ -733,6 +734,10 @@ footer a:hover {
 
 /* MEDIA */
 @media screen and (max-width: 425px) {
+  h2 {
+    font-size: 32px;
+  }
+
   .menu__box {
     display: flex;
   }
@@ -761,6 +766,7 @@ footer a:hover {
   .news__block,
   .footer__container {
     padding: 0 15px 10px;
+    box-sizing: border-box;
   }
 
   nav .header__desktop-menu {
@@ -776,11 +782,8 @@ footer a:hover {
     flex-direction: column-reverse;
   }
 
-  .main__block>.controls__dots {
+  .main__block .controls__dots {
     display: flex;
-  }
-
-  .controls__dots {
     align-self: center;
     padding: 20px 0 0;
   }
@@ -824,13 +827,17 @@ footer a:hover {
     padding: 0 0;
   }
 
+  .story__caise {
+    font-size: 34px;
+  }
+
   .story__description button {
     width: 100%;
   }
 
   .story__description img {
     display: block;
-    width: 100%;
+    width: 280px;
   }
 
   .story__right-side img {
@@ -845,10 +852,17 @@ footer a:hover {
     align-items: flex-start;
   }
 
+  .card__image {
+    width: 300px;
+  }
+
   .study__block {
     padding-bottom: 40px;
   }
 
+  .study__item {
+    width: 280px;
+  }
 
   footer {
     padding: 30px 0 70px;
