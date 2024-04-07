@@ -227,7 +227,6 @@ header,
 .header__left-side_burger {
   display: flex;
   gap: 150px;
-  /* width: 425px; */
   align-items: center;
 }
 
@@ -365,10 +364,6 @@ main {
   font-weight: 600;
   font-size: 64px;
   line-height: 80px;
-}
-
-.main__block>.controls__dots {
-  display: flex;
 }
 
 .main__controls {
@@ -776,6 +771,10 @@ footer a:hover {
   .main__block {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .main__block>.controls__dots {
+    display: flex;
   }
 
   .controls__dots {
