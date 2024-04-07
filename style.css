@@ -441,6 +441,10 @@ main {
   line-height: 52px;
 }
 
+.story__description img {
+  display: none;
+}
+
 .story__description {
   display: flex;
   flex-direction: column;
@@ -499,7 +503,6 @@ main {
   font-weight: 600;
   line-height: 19px;
 }
-
 
 .card__image:hover .item__hover-effect {
   display: flex;
